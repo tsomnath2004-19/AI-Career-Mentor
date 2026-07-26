@@ -1,14 +1,7 @@
-import "./App.css";
+import Home from "./pages/Home";
 
 function App() {
-  return (
-    <div className="app">
-      <h1>AI Career Mentor</h1>
-      <p>Welcome to my Full Stack + AI Project 🚀</p>
-
-      <button>Get Started</button>
-    </div>
-  );
+  return <Home />;
 }
 
 export default App;
