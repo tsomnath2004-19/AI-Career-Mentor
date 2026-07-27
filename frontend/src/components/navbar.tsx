@@ -1,12 +1,14 @@
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <nav className="navbar">
       <h2>AI Career Mentor</h2>
 
       <ul>
-        <li>Home</li>
-        <li>Login</li>
-        <li>Register</li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/login">Login</Link></li>
+        <li><Link to="/register">Register</Link></li>
       </ul>
     </nav>
   );
