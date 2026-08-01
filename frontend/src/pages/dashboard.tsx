@@ -19,7 +19,9 @@ function Dashboard() {
 
       <br /><br />
 
-      <button>AI Chat</button>
+      <Link to="/chat">
+          <button>AI Chat</button>
+      </Link>
 
       <br /><br />
 
