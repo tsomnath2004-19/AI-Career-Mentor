@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
+import Roadmap from "./pages/Roadmap";
+import Resume from "./pages/Resume";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
       <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/resume" element={<Resume />} />
+      <Route path="/roadmap" element={<Roadmap />} />
     </Routes>
   );
 }

@@ -1,27 +1,29 @@
+import { Link } from "react-router-dom";
+
 function Dashboard() {
   return (
-    <div>
+    <div style={{ padding: "30px" }}>
       <h1>Student Dashboard</h1>
 
-      <div>
+      <br />
+
+      <Link to="/resume">
         <button>Resume Analyzer</button>
-      </div>
+      </Link>
 
-      <div>
-        <button>Learning Roadmap</button>
-      </div>
+      <br /><br />
 
-      <div>
-        <button>Coding Practice</button>
-      </div>
+      <Link to="/roadmap">
+         <button>Learning Roadmap</button>
+      </Link>
 
-      <div>
-        <button>AI Chat</button>
-      </div>
+      <br /><br />
 
-      <div>
-        <button>Progress</button>
-      </div>
+      <button>AI Chat</button>
+
+      <br /><br />
+
+      <button>Progress</button>
     </div>
   );
 }
